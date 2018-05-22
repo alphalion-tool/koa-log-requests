@@ -88,7 +88,7 @@ function serialize (obj) {
   
   // convert to stirng
   obj = keys.map(function (key) {
-    return format('%s: %s', key, obj[key]);
+    return format('%s: %s', key, serialize(obj[key]));
   });
   
   return format('{ %s }', obj.join(', '));
