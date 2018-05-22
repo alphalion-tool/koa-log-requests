@@ -1,6 +1,6 @@
 {
   "name": "koa-log-requests",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Log request method, path, status, time spent and body",
   "main": "index.js",
   "scripts": {
