@@ -1,7 +1,7 @@
 # koa-log-requests
 
 Customizable Koa middleware for logging incoming requests.
-Outputs method, path, response status, time spent and request body.
+Outputs method, path, response status, time spent and request body, support nesting body data.
 
 
 ### Installation
